@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind Components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+*:focus {
+background-color: yellow;
+border: 1px solid #333;
+color:#333;
+} 
